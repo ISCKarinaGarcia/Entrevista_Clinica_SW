@@ -1,0 +1,31 @@
+[30-Jan-2023 17:00:05 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\SWEntrevistaClinica\Routes\routes.php on line 6
+[30-Jan-2023 17:00:21 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\SWEntrevistaClinica\Routes\routes.php on line 6
+[30-Jan-2023 17:04:12 Europe/Berlin] PHP Warning:  Undefined variable $routesArra in C:\xampp\htdocs\SWEntrevistaClinica\Routes\routes.php on line 6
+[30-Jan-2023 17:04:12 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\SWEntrevistaClinica\Routes\routes.php:6
+Stack trace:
+#0 C:\xampp\htdocs\SWEntrevistaClinica\Controllers\routes.controller.php(6): include()
+#1 C:\xampp\htdocs\SWEntrevistaClinica\index.php(13): RoutesController->Index()
+#2 {main}
+  thrown in C:\xampp\htdocs\SWEntrevistaClinica\Routes\routes.php on line 6
+[30-Jan-2023 17:04:13 Europe/Berlin] PHP Warning:  Undefined variable $routesArra in C:\xampp\htdocs\SWEntrevistaClinica\Routes\routes.php on line 6
+[30-Jan-2023 17:04:13 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\SWEntrevistaClinica\Routes\routes.php:6
+Stack trace:
+#0 C:\xampp\htdocs\SWEntrevistaClinica\Controllers\routes.controller.php(6): include()
+#1 C:\xampp\htdocs\SWEntrevistaClinica\index.php(13): RoutesController->Index()
+#2 {main}
+  thrown in C:\xampp\htdocs\SWEntrevistaClinica\Routes\routes.php on line 6
+[30-Jan-2023 17:54:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "(", expecting variable in C:\xampp\htdocs\SWEntrevistaClinica\Models\connection.php on line 4
+[30-Jan-2023 17:56:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "(", expecting variable in C:\xampp\htdocs\SWEntrevistaClinica\Models\connection.php on line 4
+[30-Jan-2023 17:57:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Connection::infoDatabse() in C:\xampp\htdocs\SWEntrevistaClinica\index.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\SWEntrevistaClinica\index.php on line 13
+[30-Jan-2023 17:57:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Connection::infoDatabse() in C:\xampp\htdocs\SWEntrevistaClinica\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\SWEntrevistaClinica\index.php on line 14
+[30-Jan-2023 18:00:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Connection::connection() in C:\xampp\htdocs\SWEntrevistaClinica\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\SWEntrevistaClinica\index.php on line 14
+[30-Jan-2023 18:01:04 Europe/Berlin] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\SWEntrevistaClinica\Models\connection.php on line 18
